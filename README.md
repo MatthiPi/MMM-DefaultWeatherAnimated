@@ -1,5 +1,4 @@
 # MMM-DefaultWeatherAnimated
-============================
 
 Adds animated icons and changes layout of default weather plugin
 
