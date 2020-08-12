@@ -1,0 +1,457 @@
+
+
+
+
+.weather-today {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.city {
+	line-height: 300px;
+	width: 33%;
+	float: left;
+}
+.today-weather-icon {
+	width: 33%;
+	float: left;
+}
+.today-weather-temp {
+	width: 33%;
+	float: left;
+	padding-top: 100px;
+}
+
+.module.weather.weather .display-none,
+.weathericon:before {
+    display: none;
+}
+
+.region.upper.third {
+    
+}
+
+
+
+.forecast-weather{
+	width: 900px;
+	margin: 0 auto;
+}
+
+.forecast-weather .forecast-day{
+	width: 20%;
+	margin: 0 auto;
+	float: left;
+}
+
+.weather .weather-icon,
+.forecast-day .bright .weather-icon,
+.forecast-day .min-temp,
+.forecast-day .bright .max-temp,
+.weather .forecast-day .day {
+    padding-left: 0;
+    padding-right: 0px;
+	text-align: center;
+}
+
+
+
+svg{
+  width:150px;
+}
+
+.svg-ico{
+	line-height: 0px;
+	font-size: 0px;
+	
+}
+
+.svg-ico svg{
+	width: 0px;
+	
+}
+
+.weathericon.wi-day-sunny .svg-ico.day-sunny svg{
+	width: 300px;
+}
+
+.weathericon.wi-day-cloudy .svg-ico.partly-sun svg{
+	width: 300px
+}
+
+.weathericon.wi-showers .svg-ico.sun-rain svg{
+	width: 300px;
+}
+
+.weathericon.wi-night-thunderstorm .svg-ico.thunder svg,
+.weathericon.wi-thunderstorm .svg-ico.thunder svg{
+	width: 300px;
+}
+
+.weathericon.wi-cloudy-windy .svg-ico.cloudy-windy svg{
+	width: 300px;
+}
+
+.weathericon.wi-night-clear .svg-ico.night-clear svg{
+	width: 300px;
+}
+
+.weathericon.wi-night-cloudy .svg-ico.cloudy-night svg,
+.weathericon.wi-night-scattered-cloudy .svg-ico.cloudy-night svg{
+	width: 300px;
+}
+
+.weathericon.wi-night-showers .svg-ico.night-rain svg{
+	width: 300px;
+}
+
+.weathericon.wi-night-rain .svg-ico.rain svg,
+.weathericon.wi-rain .svg-ico.rain svg{
+	width: 300px;
+}
+
+.weathericon.wi-night-snow .svg-ico.snow svg,
+.weathericon.wi-snow .svg-ico.snow svg{
+	width: 300px;
+}
+
+.weathericon.wi-fog .svg-ico.mist svg{
+	width: 300px;
+}
+
+.weathericon.wi-night-alt-cloudy-windy .svg-ico.cloudy svg,
+.weathericon.wi-night-broken-cloudy .svg-ico.cloudy svg{
+	width: 300px;
+}
+
+
+
+.weathericon.wi-day-sunny .svg-icons-forecast .svg-ico.day-sunny svg{
+	width: 100px;
+}
+
+.weathericon.wi-cloudy .svg-icons-forecast .svg-ico.partly-sun svg,
+.weathericon.wi-day-cloudy .svg-icons-forecast .svg-ico.partly-sun svg{
+	width: 100px;
+}
+
+.weathericon.wi-showers .svg-icons-forecast .svg-ico.sun-rain svg{
+	width: 100px;
+}
+
+.weathericon.wi-night-thunderstorm .svg-icons-forecast .svg-ico.thunder svg,
+.weathericon.wi-thunderstorm .svg-icons-forecast .svg-ico.thunder svg{
+	width: 100px;
+}
+
+.weathericon.wi-cloudy-windy .svg-icons-forecast .svg-ico.cloudy-windy svg{
+	width: 100px;
+}
+
+.weathericon.wi-night-clear .svg-icons-forecast .svg-ico.night-clear svg{
+	width: 100px;
+}
+
+.weathericon.wi-night-cloudy .svg-icons-forecast .svg-ico.cloudy-night svg,
+.weathericon.wi-night-scattered-cloudy .svg-icons-forecast .svg-ico.cloudy-night svg{
+	width: 100px;
+}
+
+.weathericon.wi-night-showers .svg-icons-forecast .svg-ico.night-rain svg{
+	width: 100px;
+}
+
+.weathericon.wi-night-rain .svg-icons-forecast .svg-ico.rain svg,
+.weathericon.wi-rain .svg-icons-forecast .svg-ico.rain svg{
+	width: 100px;
+}
+
+.weathericon.wi-night-snow .svg-icons-forecast .svg-ico.snow svg,
+.weathericon.wi-snow .svg-icons-forecast .svg-ico.snow svg{
+	width: 100px;
+}
+
+.weathericon.wi-fog .svg-icons-forecast .svg-ico.mist svg{
+	width: 100px;
+}
+
+.weathericon.wi-night-alt-cloudy-windy .svg-icons-forecast .svg-ico.cloudy svg,
+.weathericon.wi-night-broken-cloudy .svg-icons-forecast .svg-ico.cloudy svg{
+	width: 100px;
+}
+
+
+
+
+
+#smallcloud path{
+  will-change: transform;
+	animation: bgCloud 6s linear infinite;
+}
+#bigCloudRain path{
+	animation: cloud-color 8s ease infinite;
+}
+#drop1 {
+	animation: droplet 1s linear infinite;
+}
+
+#drop2 {
+	animation: droplet 1s linear infinite 0.4s;
+}
+
+#drop3 {
+	animation: droplet 1s linear infinite 0.8s;
+}
+#flake3 {
+	animation: snow-flakes 3s linear infinite;
+}
+
+#flake1 {
+	animation: snow-flakes 3s linear infinite 1.2s;
+}
+
+#flake2 {
+	animation: snow-flakes 3s linear infinite 2s;
+}
+
+#mistrays path{
+			opacity:1;
+}
+#mistrays #ray2{
+	stroke-dashoffset: 5;
+	stroke-dasharray: 5;
+	animation: dashXs 9s linear forwards infinite;
+}
+#mistrays #ray4, #ray5{
+	stroke-dashoffset: 20;
+	stroke-dasharray: 20;
+	animation: dashM 9s linear forwards infinite;
+}
+#mistrays #ray6, #ray7{
+	stroke-dashoffset: 14;
+	stroke-dasharray: 14;
+	animation: dashS 9s linear forwards infinite;
+}
+#mistrays #ray1, #ray3{
+	stroke-dashoffset: 27;
+	stroke-dasharray: 27;
+	animation: dashL 9s linear forwards infinite;
+}
+/*#sunRays, #SunGlobe{
+	transform:translate(10px, -12px)
+}*/
+#sunRays, #sunrays, #SunGlobe{
+  transform-origin: 50% 50%;
+  animation: spin 20s linear infinite;
+}
+#sunRays path{
+  
+}
+#totalSun{
+  transform: translate(15px, -12px) scale(.9);
+}
+#thunder{
+	animation: thunder-bolt 6s linear infinite;
+}
+
+#bigClouds path{
+	animation: thunder-cloud 6s ease infinite;
+}
+
+
+@keyframes bgCloud {
+	0% {
+		  -webkit-transform: translate(0px, 0px);
+		  transform: translate(0px, 0px);
+		  opacity: 0;
+		}
+	30% {
+			-webkit-transform: translate(9px, 0px);
+			transform: translate(9px, 0px);
+			opacity: 1;
+		}
+	70% {
+			-webkit-transform: translate(27px, 0px);
+			transform: translate(27px, 0px);
+			opacity: 1;
+		}
+	100% {
+			-webkit-transform: translate(45px, 0px);
+			transform: translate(45px, 0px);
+			opacity: 0;
+		}
+}
+
+@keyframes droplet {
+		0% {
+			-webkit-transform: translate(0px, -35px);
+			transform: translate(0px, -35px);
+			opacity: 0;
+		}
+		30% {
+			-webkit-transform: translate(0px, -18px);
+			transform: translate(0px, -18px);
+			opacity: 1;
+		}
+		80% {
+			-webkit-transform: translate(0px, 8px);
+			transform: translate(0px, 8px);
+			opacity: 1;
+		}
+		100% {
+			-webkit-transform: translate(0px, 20px);
+			transform: translate(0px, 20px);
+			opacity: 0;
+		}
+}
+@keyframes cloud-color {
+		0% {
+			fill: #F4F4F4;
+		}
+		50% {
+			fill: #c4c4c4;
+		}
+		100% {
+			fill: #F4F4F4;
+		}
+}
+@keyframes snow-flakes {
+  0% {
+      -webkit-transform: translate(0px, -35px);
+      transform: translate(0px, -35px);
+      opacity: 0;
+  }
+  30% {
+      -webkit-transform: translate(-10px, -18px);
+      transform: translate(-10px, -18px);
+      opacity: 1;
+  }
+  40%{
+      -webkit-transform: translate(0px, -8px);
+      transform: translate(0px, -8px);
+      opacity: 1;
+  }
+  60%{
+      -webkit-transform: translate(10px, 0px);
+      transform: translate(10px, 0px);
+      opacity: 1;
+  }
+  80% {
+      -webkit-transform: translate(0px, 8px);
+      transform: translate(0px, 8px);
+      opacity: 1;
+  }
+  100% {
+      -webkit-transform: translate(10px, 20px);
+      transform: translate(10px, 20px);
+      opacity: 0;
+  }
+}
+@keyframes dashXs {
+  0%{
+  	opacity:0;
+  	stroke-dashoffset: 5;
+  }
+  50% {
+  	opacity:1;
+  	stroke-dashoffset: 0;
+  }
+  100%{
+  	opacity:0;
+  	stroke-dashoffset: -5;
+  }
+  }
+ @keyframes dashS {
+  0%{
+  	opacity:0;
+  	stroke-dashoffset: 14;
+  }
+  50% {
+  	opacity:1;
+  	stroke-dashoffset: 0;
+  }
+  100%{
+  	opacity:0;
+  	stroke-dashoffset: -14;
+  }
+ }
+ @keyframes dashM {
+  0%{
+  	opacity:0;
+  	stroke-dashoffset: -20;
+  }
+  50% {
+  	opacity:1;
+  	stroke-dashoffset: 0;
+  }
+  100%{
+  	opacity:0;
+  	stroke-dashoffset: 20;
+  }
+ }
+ @keyframes dashL {
+  0%{
+  	opacity:0;
+  	stroke-dashoffset: -27;
+  }
+  50% {
+  	opacity:1;
+  	stroke-dashoffset: 0;
+  }
+  100%{
+  	opacity:0;
+  	stroke-dashoffset: 27;
+  }
+ }
+@keyframes spin {
+	100% {
+		-webkit-transform: rotate(360deg);
+    -moz-transform:rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes thunder-cloud {
+	100%,
+	0% {
+		fill: #666;
+	}
+	20% {
+		fill: #555;
+	}
+	21.5% {
+		fill: #999;
+	}
+	25% {
+		fill: #555;
+	}
+	27.5% {
+		fill: #999;
+	}
+	30% {
+		fill: #555;
+	}
+	40% {
+		fill: #999;
+	}
+	90% {
+		fill: #555;
+	}
+}
+@keyframes thunder-bolt{
+	100%, 0%{
+		opacity:0;
+	}
+	23%{
+		opacity: 0;
+	}
+	25%{
+		opacity: 1;
+	}
+	30%{
+		opacity:1;
+	}
+	35%{
+		opacity:0;
+	}
+}
