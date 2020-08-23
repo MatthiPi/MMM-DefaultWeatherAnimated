@@ -119,6 +119,7 @@ svg{
 	width: 300px;
 }
 
+.weathericon.wi-cloudy .svg-ico.cloudy svg,
 .weathericon.wi-night-alt-cloudy-windy .svg-ico.cloudy svg,
 .weathericon.wi-night-broken-cloudy .svg-ico.cloudy svg{
 	width: 300px;
@@ -130,7 +131,10 @@ svg{
 	width: 100px;
 }
 
-.weathericon.wi-cloudy .svg-icons-forecast .svg-ico.partly-sun svg,
+.weathericon.wi-cloudy .svg-icons-forecast .svg-ico.cloudy svg{
+	width: 100px;
+}
+
 .weathericon.wi-day-cloudy .svg-icons-forecast .svg-ico.partly-sun svg{
 	width: 100px;
 }
